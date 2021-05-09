@@ -1,0 +1,43 @@
+{
+	"manifest_version": 2,
+	"name": "DarkLeetCode",
+	"description": "Turn Leetcode in Dark mode",
+	"version": "1.0.0",
+	"content_scripts": [
+		{
+			"css": ["root.css"],
+			"matches": ["https://leetcode.com/*"]
+		},
+		{
+			"css": ["problemset.css"],
+			"matches": ["https://leetcode.com/problemset/*"]
+		},
+		{
+			"css": ["problem.css"],
+			"matches": ["https://leetcode.com/problems/*"]
+		},
+		{
+			"css": ["problem-discuss.css"],
+			"matches": [
+				"https://leetcode.com/problems/*/discuss/*",
+				"https://leetcode.com/discuss/*"
+			]
+		},
+		{
+			"css": ["explore.css"],
+			"matches": ["https://leetcode.com/explore/*"]
+		},
+		{
+			"css": ["store.css"],
+			"matches": ["https://leetcode.com/store/*"]
+		},
+		{
+			"css": ["subscribe.css"],
+			"matches": ["https://leetcode.com/subscribe/*"]
+		},
+		{
+			"css": ["list.css"],
+			"matches": ["https://leetcode.com/list/"]
+		}
+	]
+}

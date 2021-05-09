@@ -1,0 +1,108 @@
+/* Discuss page for particular problem */
+.css-11rzubf .css-10yicc7-Category {
+	color: var(--font-strong);
+}
+
+.css-10yicc7-Category.e5i1odf1 {
+	background-color: var(--bg-med2-color) !important;
+}
+
+#discuss-container {
+	background-color: var(--bg-color) !important;
+}
+
+/* Question title */
+.title__27Kb {
+	color: var(--link-strong) !important;
+}
+
+.category-link__1lP8 {
+	color: var(--font-medium) !important;
+}
+
+.category-link__1lP8:hover {
+	color: var(--link-hover) !important;
+}
+.category-link__1lP8.active-category__37NE {
+	color: var(--link-strong) !important;
+}
+
+/* Search bar */
+.subheader__3zA6 {
+	background-color: var(--bg-med1-color) !important;
+	color: var(--font-strong) !important;
+}
+label.css-os8bm0,
+label.css-92dq4s {
+	color: var(--font-strong) !important;
+}
+.input__2o8B {
+	background-color: var(--bg-med2-color) !important;
+	color: var(--font-strong) !important;
+}
+
+/* overall discuss page checkout infos */
+.css-1j22pvs {
+	background: unset !important ;
+	border: var(--border) !important;
+}
+
+/* Posts container */
+.css-1g1wmrm-FullWrapper,
+.css-zjcz7i-TopicListContainer /*  overall discuss page*/ ,
+.css-1lnhj25-FullWrapper-RoundedTopicList /*  overall discuss page*/ {
+	background-color: var(--bg-med1-color) !important;
+	color: var(--font-medium) !important;
+}
+
+/* Post title */
+.topic-title__3LYM {
+	color: var(--link-strong) !important;
+}
+
+/* Right side tags container */
+.css-d08ysn-Container,
+.css-zywons-Container-RoundedTagFilter /* overall discuss page*/ {
+	background-color: var(--bg-med1-color) !important;
+}
+.css-2mbh4k-TagButton {
+	background-color: var(--bg-med2-color) !important;
+}
+.css-1ytv31z-Detail {
+	color: var(--font-medium) !important;
+}
+.css-wgldzj-Pane-LeftPane {
+	border: var(--border) !important;
+}
+.css-154bklu-Pane {
+	border-top: var(--border) !important;
+	border-bottom: var(--border) !important;
+	border-right: var(--border) !important;
+	/* border-left: none; */
+}
+
+/* borders */
+.border-wrapper__A-w9,
+.topic-item-wrap__2FSZ {
+	border-bottom: var(--border) !important;
+}
+
+/* Discuss page open a particular post */
+.topic-container__3Kpd {
+	background-color: var(--bg-color) !important;
+}
+
+.discuss-markdown-container pre,
+.discuss-markdown-container code {
+	background-color: var(--bg-med2-color) !important;
+	color: var(--font-medium) !important;
+}
+
+.header___QdN {
+	background-color: unset !important;
+}
+
+.vote__3Zp9.vote__3btZ {
+	background-color: var(--bg-med1-color) !important;
+	color: var(--font-strong) !important;
+}

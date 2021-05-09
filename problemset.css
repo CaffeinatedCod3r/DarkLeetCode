@@ -1,0 +1,131 @@
+/* leetcode/problemset/all */
+
+#announcement.container {
+	display: none !important;
+}
+
+/* Remove hr */
+.question-filter-base .question-filter-hr {
+	display: none;
+}
+
+/* Filter options */
+.filter-item.open .filter-title {
+	color: var(--link-strong) !important;
+}
+.filter-title:hover {
+	color: var(--link-hover) !important;
+}
+.filter-dropdown-menu-items {
+	background-color: var(--bg-color) !important;
+	border: var(--border) !important;
+}
+
+.filter-dropdown-menu-item:hover {
+	background-color: var(--bg-med2-color) !important;
+}
+
+.filter-dropdown-menu.dropdown-menu {
+	background-color: var(--bg-color) !important;
+}
+
+.tag-filter-tabs {
+	background-color: var(--bg-med2-color) !important;
+}
+
+/* PICK ONE button */
+.btn.btn-default {
+	background-color: var(--btn-dark) !important;
+	color: var(--font-medium) !important;
+}
+.btn.btn-default:hover {
+	background-color: var(--btn-dark-hover) !important;
+	color: var(--link-hover) !important;
+}
+/* PICK ONE button ends */
+
+/* YOUR Progress side panel */
+.sidebar-title {
+	color: var(--font-medium) !important;
+}
+/* Session button */
+.list-group-item.session-select {
+	background-color: #505050 !important;
+	color: var(--font-medium) !important;
+}
+
+.progress-panel-base .session-manager-btn button.dropdown-toggle {
+	background-color: #808080 !important;
+	color: var(--font-medium) !important;
+}
+.session-manager-btn .btn.btn-default {
+	background-color: var(--btn-dark) !important;
+	color: var(--bg-color) !important;
+}
+/* Session button ends*/
+
+/* TOP Hits */
+.list-group-item {
+	background-color: var(--bg-med2-color) !important;
+}
+.list-group-item > a {
+	color: var(--font-strong) !important;
+}
+.blog-sidebar #list-card-app .list-group-item:hover {
+	background: var(--bg-med1-color) !important;
+	color: var(--link-hover) !important;
+}
+/* Pie Chart */
+#highcharts-u5aax1e-0 {
+	background-color: #303030;
+}
+
+/* Pie chart numbers */
+.progress-panel-base > ul > li .progress-status {
+	background: #404040;
+}
+.progress-panel-base > ul li.list-group-item.chart-elem {
+	background-color: #404040;
+}
+
+/* Coins */
+.list-group-item.points-info {
+	background-color: #303030 !important;
+}
+.progress-panel-base > ul li.list-group-item.points-info .info-value {
+	color: var(--font-medium) !important;
+}
+/* YOUR Progress side panel ends*/
+
+/* form input */
+.form-control {
+	background: #373737 !important;
+	color: white !important;
+}
+/* form input end*/
+
+/* problemset question */
+.table-responsive.question-list-table tbody tr:nth-of-type(odd) {
+	background: var(--bg-color) !important;
+}
+.table-responsive.question-list-table tbody.reactable-data tr:hover {
+	background: var(--hover-color) !important;
+}
+.table-responsive.question-list-table tbody.reactable-data tr:hover td a {
+	color: var(--link-hover) !important;
+}
+/* problemset question ends */
+
+/* Right Side tags */
+
+.tags.tags-fade .btn.btn-default {
+	background-color: var(--btn-dark) !important;
+}
+.tags.tags-fade .btn.btn-default span {
+	color: var(--font-medium) !important;
+}
+
+.tags.tags-fade .btn.btn-default:hover span {
+	color: var(--link-hover) !important;
+}
+/* Right Side tags ends*/

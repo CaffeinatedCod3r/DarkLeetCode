@@ -1,0 +1,196 @@
+:root {
+	color-scheme: dark;
+	--bg-color: rgba(20, 20, 20, 1);
+	--bg-med1-color: rgba(30, 30, 30, 1);
+	--bg-med2-color: rgba(40, 40, 40, 1);
+	--bg-med3-color: rgba(50, 50, 50, 1);
+
+	--hover-color: rgb(55, 55, 55);
+	--link-strong: rgb(97, 174, 239);
+	--link-hover: rgb(61, 124, 184);
+
+	--font-medium: rgba(255, 255, 255, 0.85);
+	--font-strong: rgb(255, 255, 255);
+
+	--btn-dark: #27292b;
+	--btn-dark-hover: #404346;
+
+	--border: 1px solid rgb(128, 128, 128);
+	/* temporary */
+	--dark-bg: rgb(30, 30, 30);
+	--med-bg: #000000;
+	--light-bg: #121212;
+	--input: #4a4c52;
+	--font: rgba(255, 255, 255, 0.87);
+
+	--font-strong: #ffffff;
+	--syntax-builtin: #08a;
+	--syntax-keyword: #61aeef;
+	--syntax-number: #d19a66;
+	--syntax-logical: #c679dd;
+	--submit: #1d5a33;
+	--light-border: #121212;
+	--btn-dim: #646465;
+	--btn-light: #898989;
+
+	--builtin: rgb(97, 174, 239);
+	--number: #d19a66;
+	--keyword: #c679dd;
+	--string: #98c379;
+	--icon: #9e9e9e;
+	--x: rgb(156, 220, 254);
+	--foreground: rgb(212, 212, 212);
+}
+
+hr {
+	border-top: var(--border) !important;
+}
+
+body {
+	background-color: var(--bg-color) !important;
+	color: var(--font-medium) !important;
+}
+
+/* Navbar */
+.ant-dropdown-menu-item:hover a,
+.ant-dropdown-menu-item-active a,
+.ant-dropdown-menu-item > a {
+	color: unset !important;
+}
+.navbar__1Bue {
+	background-color: var(--bg-color) !important;
+	border-bottom: var(--border) !important;
+}
+.nav-item-container__16kF .nav-item__5BvG,
+.nav-item-container__16kF .nav-item__5BvG .ant-dropdown-trigger {
+	color: var(--font-medium) !important;
+}
+.logo__3xn0 {
+	filter: invert(1);
+}
+
+.nav-dropdown__3ybW .ant-dropdown-menu .ant-dropdown-menu-item:hover {
+	color: var(--font-strong) !important;
+}
+
+/* User icon list */
+.ant-dropdown-menu {
+	background-color: var(--bg-med1-color) !important;
+}
+.ant-dropdown-menu-item {
+	color: var(--font-medium) !important;
+}
+.ant-dropdown-menu-item-active {
+	background-color: var(--bg-med2-color) !important;
+}
+.ant-dropdown-menu-item-active .item__2I37 {
+	color: var(--link-strong) !important;
+}
+
+/* user name */
+.user-name__35Mk {
+	color: var(--font-strong) !important;
+}
+.user-menu-link__1jrj:hover .item-content__3tay {
+	color: var(--link-strong) !important;
+}
+/* Navbar ends */
+
+/* remove offer banner */
+#base_content > div.container.row.no-margin.container-center {
+	display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: unset !important;
+}
+.msg .description,
+.msg .description .discuss-markdown-container p {
+	color: var(--font-medium) !important;
+}
+
+/* Footer */
+.root__23T_ {
+	background-color: var(--bg-color) !important;
+	color: var(--font-strong) !important;
+}
+.container__2AdV {
+	border-top: 1px solid rgb(128, 128, 128) !important;
+}
+
+.copyright__Ak6x {
+	color: var(--font-medium) !important;
+}
+.nav-items__1KWV a {
+	color: var(--link-strong) !important;
+}
+
+.us-txt__3qkh {
+	color: var(--link-strong);
+}
+
+.container__2AdV {
+	border-top: var(--border) !important;
+}
+
+/* Right Column */
+
+.side-block-text .side-block-btn {
+	background-color: var(--btn-dark) !important;
+	color: var(--font-medium) !important;
+}
+.side-block-text .side-block-btn:hover {
+	background-color: var(--btn-dark-hover) !important;
+	color: var(--link-strong) !important;
+}
+
+.problem-category .problem-category-info a {
+	color: var(--font-medium) !important;
+}
+
+.problem-category .problem-category-info a:hover {
+	background-color: var(--bg-med2-color) !important;
+	color: var(--link-strong) !important;
+}
+
+/* Customisations for profile page */
+#profile-root {
+	background: var(--bg-color) !important;
+}
+.content-wrapper__2N7X {
+	background: var(--bg-color) !important;
+}
+.ant-card {
+	background: var(--bg-med3-color) !important;
+	color: var(--font-strong) !important;
+}
+
+.ant-card-head {
+	color: var(--link-strong) !important;
+}
+
+.css-o76bfb-PercentTrack /* Circle chart*/ {
+	background: unset !important;
+}
+.css-1b3bb7o-PercentNumber {
+	color: var(--font-strong) !important;
+}
+.ant-list,
+.css-h2iuu8, /* Problems Solved ,Badges*/
+.css-1f132nx,
+.css-lyiiik,
+.css-19t9jfg,
+.css-57pydk, /* Badges count*/
+.css-x9b7oa, /* current challenge name*/
+.css-7brz4n, /* upcoming badge*/
+.stats-visual-wrapper__2jzx .total-solved-count__2El1, /* Total problem solved*/
+.total-solved-container__1WZP .difficulty-total-count__y_em, /* total problem count */
+.total-solved-container__1WZP .difficulty-total-count__y_em::before, /* / sign*/
+.total-solved-container__1WZP .difficulty-ac-count__jhZm /* solved problem count difficult wise*/ {
+	color: unset !important;
+}

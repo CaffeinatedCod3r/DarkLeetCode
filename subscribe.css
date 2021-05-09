@@ -1,0 +1,11 @@
+.price-panel {
+	background-color: var(--bg-med2-color) !important;
+}
+
+.description .row div {
+	color: var(--font-medium) !important;
+}
+
+.faq-content .faq blockquote {
+	color: var(--font-medium) !important;
+}

@@ -1,0 +1,47 @@
+#base_content {
+	background-color: var(--bg-color) !important;
+}
+
+.explore-card .bot-base {
+	background-color: var(--bg-med2-color) !important;
+}
+
+.explore-card .bot-base .card-stats .big-number {
+	color: var(--font-strong) !important;
+}
+.explore-card .bot-base .card-stats .text-label {
+	color: var(--font-medium) !important;
+}
+
+.start-button-base {
+	background-color: var(--bg-med2-color) !important;
+}
+
+.popover.fade.bottom.in {
+	background-color: var(--bg-med2-color) !important;
+}
+
+#base_content
+	#explore-app
+	.explore-home-showcase
+	.explore-index-showcase-base
+	.showcase-row::before,
+#base_content
+	#explore-app
+	.explore-home-showcase
+	.explore-index-showcase-base
+	.showcase-row::after {
+	background: unset !important;
+}
+
+.dragscroll-container .scroll-btn {
+	opacity: 0.5 !important;
+	background-color: var(--bg-med2-color) !important;
+	color: var(--font-medium) !important;
+}
+.dragscroll-container:hover .scroll-btn {
+	opacity: 0.8 !important;
+}
+.dragscroll-container:hover .scroll-btn:hover {
+	opacity: 1 !important;
+}

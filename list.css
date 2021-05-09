@@ -1,0 +1,36 @@
+.panel-default > .panel-heading {
+	background-color: var(--bg-med2-color) !important;
+	color: var(--font-strong) !important;
+}
+
+.list-group .list-group-item.question {
+	background-color: var(--bg-med1-color) !important;
+	color: var(--link-strong) !important;
+}
+
+/* YOUR Progress side panel */
+
+/* Session button */
+.list-group-item.session-select {
+	background-color: #505050 !important;
+	color: var(--font-medium) !important;
+}
+
+.list-group-item.chart-elem {
+	background-color: var(--bg-med1-color) !important;
+}
+
+.list-group-item.points-info {
+	background-color: var(--bg-med2-color) !important;
+	color: var(--font-medium) !important;
+}
+
+.progress-panel-base .session-manager-btn button.dropdown-toggle {
+	background-color: #808080 !important;
+	color: var(--font-medium) !important;
+}
+.session-manager-btn .btn.btn-default {
+	background-color: var(--btn-dark) !important;
+	color: var(--bg-color) !important;
+}
+/* Session button ends*/

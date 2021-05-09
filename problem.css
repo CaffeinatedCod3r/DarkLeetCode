@@ -1,0 +1,197 @@
+/* leetcode/problems/<specific> */
+
+/* Like/Dislike */
+.btn__r7r7.css-1rdgofi {
+	color: var(--foreground) !important;
+}
+.btn__r7r7.css-1rdgofi:hover {
+	color: var(--link-hover) !important;
+}
+/* question title */
+.css-v3d350 {
+	color: var(--font-strong) !important;
+}
+/* question desc. */
+.question-content__JfgR {
+	color: var(--font-strong) !important;
+}
+
+/* tabs */
+.css-5wdlwo-TabViewHeader.e5i1odf1 {
+	background-color: var(--bg-color);
+}
+.css-1uwsqgo-TabHeaderRow {
+	color: var(--font-medium) !important;
+}
+/* Active tab */
+.css-19j86kk-TabHeader.e5i1odf4 {
+	background-color: #404040 !important;
+}
+
+/* Width setter */
+.container__Huw6 .interactive-area__1JbC {
+	background: var(--hover-color) !important;
+	padding: unset !important;
+}
+
+/* Accetped/submission info */
+.css-y3si18 {
+	color: var(--font-medium) !important;
+}
+.css-jkjiwi {
+	color: var(--font-strong) !important;
+}
+
+/* Seen this question in interview? */
+
+.title__3BS7 {
+	color: var(--font-medium) !important;
+}
+.btn__1z2C.btn-xs__3fYh.btn-info__3EMF.action-btn__DKeo {
+	background-color: var(--btn-dark) !important;
+	color: var(--font-medium) !important;
+}
+
+.btn__1z2C.btn-xs__3fYh.btn-info__3EMF.action-btn__DKeo:hover {
+	background-color: var(--btn-dark-hover) !important;
+	color: var(--font-strong) !important;
+}
+/* Hint sections */
+.css-isal7m {
+	border-left: 1px solid rgb(238, 238, 238);
+	border-right: 1px solid rgb(238, 238, 238);
+	background-color: var(--bg-med2-color) !important;
+	color: var(--font-strong) !important;
+}
+
+.css-blecvm.e5i1odf0 {
+	color: var(--font-medium) !important;
+}
+
+.css-blecvm.e5i1odf0:hover,
+.css-blecvm.e5i1odf0:hover > svg {
+	color: var(--link-hover) !important;
+}
+
+/* bottom navbar */
+.question-fast-picker-wrapper__2Y97 {
+	background-color: var(--bg-med1-color) !important;
+}
+
+.picker-menu-handler__34CD.css-6iyx43,
+.shuffle-handler__3Gzu.css-6iyx43,
+.css-6iyx43 {
+	background-color: var(--btn-dark) !important;
+	color: var(--font-medium) !important;
+}
+
+.picker-menu-handler__34CD.css-6iyx43:hover,
+.shuffle-handler__3Gzu.css-6iyx43:hover,
+.css-6iyx43:hover {
+	background-color: var(--btn-dark-hover) !important;
+	color: var(--font-strong) !important;
+}
+
+.handler-text__1hMU,
+.shuffle-icon__dV27 {
+	color: unset !important;
+}
+
+/* Code snippets */
+.content__u3I1 pre,
+.content__u3I1 code {
+	background-color: var(--bg-med2-color) !important;
+	color: var(--font-medium) !important;
+}
+
+/* Right column */
+
+.container__2zYY {
+	background-color: var(--bg-color) !important;
+}
+
+/* Top-right Icons */
+.tool-item__2DCU .tool-button__2cBA:hover {
+	color: var(--link-strong) !important;
+}
+/* Previous code submitted from local storage */
+.header__21e7 {
+	background-color: var(--bg-med1-color) !important;
+	color: var(--font-medium) !important;
+}
+.header__21e7 .reset-code-btn__3ADT {
+	color: var(--link-strong) !important;
+}
+.header__21e7 .reset-code-btn__3ADT:hover {
+	color: var(--link-hover) !important;
+}
+
+/* Run/submit btn container */
+.container__2WTi {
+	background-color: var(--bg-med1-color) !important;
+}
+
+.custom-testcase__2ah7,
+.contribute__2Kih {
+	color: var(--font-medium) !important;
+}
+
+.custom-testcase__2ah7:hover,
+.contribute__2Kih:hover {
+	color: var(--link-hover) !important;
+}
+
+.runcode__1EDI.css-79pre8 {
+	color: var(--font-medium) !important;
+}
+
+/* Inside console */
+.css-nok86h-TabViewHeader {
+	background-color: var(--bg-color) !important;
+}
+
+/* Active tab */
+.css-qndcpp-TabHeader.e5i1odf4 {
+	background-color: var(--bg-med2-color) !important;
+	color: var(--link-strong) !important;
+}
+
+/* Inactive tab */
+.css-1kuaqiy-TabHeader.e5i1odf4 {
+	color: var(--font-medium);
+}
+
+/* custom testcase input */
+.ace-github {
+	background: unset !important;
+	color: unset !important;
+}
+.ace-github .ace_cursor {
+	color: var(--font-strong) !important;
+}
+/* gutter */
+.CodeMirror-gutters {
+	background-color: var(--bg-color) !important;
+}
+.CodeMirror-linenumber.CodeMirror-gutter-elt {
+	background-color: var(--bg-color) !important;
+	color: var(--font-medium) !important;
+}
+
+/* Submission page */
+
+.ant-table-thead > tr {
+	background-color: var(--bg-med2-color);
+}
+.ant-table-thead > tr > th {
+	background-color: unset !important;
+	color: var(--font-medium) !important;
+}
+
+.ant-table-tbody > tr {
+	background-color: var(--bg-med2-color);
+}
+.ant-table-tbody > tr > td {
+	background-color: unset !important;
+	color: var(--font-medium) !important;
+}
