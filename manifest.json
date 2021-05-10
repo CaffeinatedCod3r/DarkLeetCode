@@ -13,16 +13,14 @@
 			"matches": ["https://leetcode.com/problemset/*"]
 		},
 		{
-			"css": ["problem.css"],
-			"matches": ["https://leetcode.com/problems/*"]
+			"css": ["problem-discuss.css"],
+			"matches": ["https://leetcode.com/discuss/*"]
 		},
 		{
-			"css": ["problem-discuss.css"],
-			"matches": [
-				"https://leetcode.com/problems/*/discuss/*",
-				"https://leetcode.com/discuss/*"
-			]
+			"css": ["problem.css", "problem-discuss.css"],
+			"matches": ["https://leetcode.com/problems/*"]
 		},
+
 		{
 			"css": ["explore.css"],
 			"matches": ["https://leetcode.com/explore/*"]
