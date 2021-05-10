@@ -50,12 +50,12 @@
 }
 /* Session button */
 .list-group-item.session-select {
-	background-color: #505050 !important;
+	background-color: var(--bg-med3-color) !important;
 	color: var(--font-medium) !important;
 }
 
 .progress-panel-base .session-manager-btn button.dropdown-toggle {
-	background-color: #808080 !important;
+	background-color: var(--bg-med4-color) !important;
 	color: var(--font-medium) !important;
 }
 .session-manager-btn .btn.btn-default {
@@ -77,20 +77,20 @@
 }
 /* Pie Chart */
 #highcharts-u5aax1e-0 {
-	background-color: #303030;
+	background-color: var(--bg-med1-color) !important;
 }
 
 /* Pie chart numbers */
 .progress-panel-base > ul > li .progress-status {
-	background: #404040;
+	background: var(--bg-med2-color) !important;
 }
 .progress-panel-base > ul li.list-group-item.chart-elem {
-	background-color: #404040;
+	background-color: var(--bg-med2-color) !important;
 }
 
 /* Coins */
 .list-group-item.points-info {
-	background-color: #303030 !important;
+	background-color: var(--bg-med1-color) !important;
 }
 .progress-panel-base > ul li.list-group-item.points-info .info-value {
 	color: var(--font-medium) !important;
@@ -99,8 +99,8 @@
 
 /* form input */
 .form-control {
-	background: #373737 !important;
-	color: white !important;
+	background: var(--form-input-bg) !important;
+	color: var(--form-input-fg) !important;
 }
 /* form input end*/
 

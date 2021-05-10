@@ -40,6 +40,10 @@
 		{
 			"css": ["submission.css"],
 			"matches": ["https://leetcode.com/submissions/*"]
+		},
+		{
+			"css": ["session.css"],
+			"matches": ["https://leetcode.com/session/*"]
 		}
 	]
 }

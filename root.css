@@ -4,10 +4,14 @@
 	--bg-med1-color: rgba(30, 30, 30, 1);
 	--bg-med2-color: rgba(40, 40, 40, 1);
 	--bg-med3-color: rgba(50, 50, 50, 1);
+	--bg-med4-color: rgba(80, 80, 80, 1);
 
 	--hover-color: rgb(55, 55, 55);
 	--link-strong: rgb(97, 174, 239);
 	--link-hover: rgb(61, 124, 184);
+
+	--form-input-bg: rgb(37, 37, 37);
+	--form-input-fg: rgb(255, 255, 255);
 
 	--font-medium: rgba(255, 255, 255, 0.85);
 	--font-strong: rgb(255, 255, 255);

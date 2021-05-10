@@ -1,0 +1,18 @@
+.panel {
+	background-color: var(--bg-med3-color) !important;
+	border: var(--border) !important;
+}
+
+.panel-heading {
+	background-color: var(--bg-med2-color) !important;
+}
+
+.list-group-item {
+	background-color: var(--bg-med1-color) !important;
+}
+
+/* form input */
+.form-control {
+	background: var(--form-input-bg) !important;
+	color: var(--form-input-fg) !important;
+}
