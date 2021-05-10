@@ -1,0 +1,21 @@
+#submission-list-app .table-striped > tbody > tr:nth-of-type(odd) {
+	background-color: var(--bg-med1-color) !important;
+}
+
+#submission-list-app .table-hover > tbody > tr:hover td {
+	background-color: var(--bg-med3-color) !important;
+}
+
+.pager .disabled > a,
+.pager .disabled > a:focus,
+.pager .disabled > a:hover,
+.pager .disabled > span {
+	color: var(--font-medium) !important;
+	background-color: var(--btn-disabled) !important;
+}
+
+.pager li > a,
+.pager li > span {
+	background-color: var(--btn-dark) !important;
+	color: var(--font-strong) !important;
+}
