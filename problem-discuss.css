@@ -6,7 +6,7 @@
 .css-10yicc7-Category.e5i1odf1 {
 	background-color: var(--bg-med2-color) !important;
 }
-
+.content__1Nro,
 #discuss-container {
 	background-color: var(--bg-color) !important;
 }
@@ -92,11 +92,28 @@ label.css-92dq4s {
 	background-color: var(--bg-color) !important;
 }
 
+/* Post page */
+.discuss-markdown-container {
+	color: unset !important;
+}
+
 .discuss-markdown-container pre,
 .discuss-markdown-container code {
 	background-color: var(--bg-med2-color) !important;
 	color: var(--font-medium) !important;
 }
+.discuss-markdown-container img {
+	filter: brightness(0.7) !important;
+}
+
+.discuss-markdown-container img:hover {
+	filter: brightness(0.85) !important;
+}
+
+.discuss-markdown-container table tr:nth-child(2n) {
+	background-color: var(--bg-med2-color) !important;
+}
+/* Post page ends*/
 
 .header___QdN {
 	background-color: unset !important;
