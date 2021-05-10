@@ -1,0 +1,18 @@
+.points-container .points-list-item .date {
+	color: var(--font-strong) !important;
+}
+
+.points-container .points-list-item .points-list-item-detial {
+	background-color: var(--bg-med1-color) !important;
+}
+
+.points-container .points-list-item .points-list-item-detial .points {
+	background-color: var(--bg-med3-color) !important;
+}
+
+.total-points__3C5H {
+	background-color: var(--bg-med3-color) !important;
+}
+.label__ISbh {
+	color: var(--font-strong) !important;
+}

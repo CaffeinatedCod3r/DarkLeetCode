@@ -3,6 +3,11 @@
 	"name": "DarkLeetCode",
 	"description": "Turn Leetcode in Dark mode",
 	"version": "1.0.0",
+	"icons": {
+		"16": "icon16.ico",
+		"48": "icon48.ico",
+		"128": "icon128.ico"
+	},
 	"content_scripts": [
 		{
 			"css": ["root.css"],
@@ -39,11 +44,22 @@
 		},
 		{
 			"css": ["submission.css"],
-			"matches": ["https://leetcode.com/submissions/*"]
+			"matches": [
+				"https://leetcode.com/submissions/*",
+				"https://leetcode.com/progress/*"
+			]
 		},
 		{
 			"css": ["session.css"],
 			"matches": ["https://leetcode.com/session/*"]
+		},
+		{
+			"css": ["points.css"],
+			"matches": ["https://leetcode.com/points/*"]
+		},
+		{
+			"css": ["subscription.css"],
+			"matches": ["https://leetcode.com/subscription/*"]
 		}
 	]
 }

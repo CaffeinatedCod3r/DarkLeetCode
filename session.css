@@ -4,6 +4,7 @@
 }
 
 .panel-heading {
+	color: unset !important;
 	background-color: var(--bg-med2-color) !important;
 }
 

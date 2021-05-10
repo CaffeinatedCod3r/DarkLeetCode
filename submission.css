@@ -1,8 +1,7 @@
-#submission-list-app .table-striped > tbody > tr:nth-of-type(odd) {
+.table-striped > tbody > tr:nth-of-type(odd) {
 	background-color: var(--bg-med1-color) !important;
 }
-
-#submission-list-app .table-hover > tbody > tr:hover td {
+.table-hover > tbody > tr:hover td {
 	background-color: var(--bg-med3-color) !important;
 }
 
