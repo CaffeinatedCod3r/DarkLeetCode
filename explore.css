@@ -45,3 +45,170 @@
 .dragscroll-container:hover .scroll-btn:hover {
 	opacity: 1 !important;
 }
+
+/* Inside explore card */
+
+.chapter-list-base .chapter-list .chapter-list-item {
+	background-color: var(--bg-med2-color) !important;
+}
+
+a.list-group-item.chapter-list-item {
+	color: var(--font-strong) !important;
+}
+
+/* clock  */
+td#c1 {
+	background-color: var(--bg-med2-color) !important;
+}
+
+#t1 {
+	color: var(--link-strong) !important;
+}
+
+.overview-tables-base .table-base,
+.overview-tables-base .overview-item-list-base.item-bg-alt {
+	background-color: unset !important;
+}
+.overview-tables-base .table-header {
+	background-color: var(--bg-med2-color) !important;
+}
+
+.overview-tables-base .table-item {
+	background-color: var(--bg-med1-color) !important;
+}
+
+.overview-tables-base .table-item:nth-child(4n),
+.overview-tables-base .table-item:nth-child(4n-1) {
+	background-color: var(--bg-med2-color) !important;
+}
+
+.card-intro-base .overview-tables-base .table-item.accessible:hover,
+.overview-tables-base .table-item:hover {
+	background: var(--bg-med3-color) !important;
+}
+
+.explore-item-list .list-group-item:nth-child(even),
+.list-group-item {
+	background-color: var(--bg-med2-color) !important;
+}
+
+.explore-item-list .list-group-item:nth-child(even):hover,
+.list-group-item:hover {
+	background-color: var(--hover-color) !important;
+}
+
+/* question from explore card chapter */
+
+/* Left side */
+.expandable-chapter-list-base .chapter-item .list-group {
+	padding: unset !important;
+}
+/* left side ends */
+
+.failed-to-complete-container {
+	background-color: var(--bg-med2-color) !important;
+}
+
+.content-viewer-base {
+	background: unset !important ;
+}
+.content-viewer-toolbar-base {
+	background-color: var(--bg-med1-color) !important;
+}
+
+.content-viewer-toolbar-base button.btn {
+	background: var(--btn-dark) !important;
+}
+
+.content-viewer-toolbar-base button.btn.menu-btn {
+	border: var(--border) !important;
+}
+
+.content-viewer-toolbar-base button.btn.next-btn {
+	background: var(--btn-disabled) !important;
+}
+
+.content-base .question-base .question-area .question-detail {
+	background: var(--bg-med1-color) !important;
+}
+
+/* Code snippets */
+.question-description__3U1T pre,
+.question-description__3U1T code {
+	background-color: var(--bg-med2-color) !important;
+	color: var(--font-medium) !important;
+}
+
+/* hints area */
+.css-haw22i .center__3_51 {
+	background: var(--bg-med2-color) !important;
+	color: var(--font-strong) !important;
+}
+
+.expandable-panel__YLuE .content__1q_0 {
+	background: var(--bg-med1-color) !important;
+}
+
+.expandable-panel__YLuE .expand-btn__2cag {
+	color: var(--font-medium) !important;
+}
+.expandable-panel__YLuE .expand-btn__2cag:hover {
+	color: var(--font-strong) !important;
+}
+
+.content__1q_0 pre {
+	background-color: var(--bg-med2-color) !important;
+	color: var(--font-medium) !important;
+}
+/* hints area ends */
+
+.Select-control {
+	background-color: var(--bg-med1-color) !important;
+	color: var(--font-strong) !important;
+}
+.Select.has-value.Select--single
+	> .Select-control
+	.Select-value
+	.Select-value-label,
+.Select.has-value.is-pseudo-focused.Select--single
+	> .Select-control
+	.Select-value
+	.Select-value-label {
+	color: var(--font-medium) !important;
+}
+.select-wrapper .Select-arrow-zone {
+	background-color: unset !important;
+}
+
+.editor-btn.btn.btn-default {
+	background-color: var(--btn-dark) !important;
+	color: var(--font-medium) !important;
+}
+
+.form-control.testCaseInputArea {
+	background-color: var(--bg-med2-color) !important;
+	color: var(--font-medium) !important;
+}
+
+.popover.fade.top.in {
+	background-color: var(--bg-med2-color) !important;
+	color: var(--font-medium) !important;
+}
+
+/* Run code result */
+.panel-heading {
+	color: var(--font-strong) !important;
+	background-color: var(--bg-med2-color) !important;
+}
+.panel-body {
+	background-color: var(--bg-med1-color) !important;
+}
+.result-panel-base .result-panel .panel pre {
+	background-color: var(--bg-med3-color) !important;
+	color: var(--font-strong) !important;
+}
+button.close {
+	opacity: 0.75 !important;
+	text-shadow: unset !important;
+	color: var(--font-strong) !important;
+}
