@@ -100,6 +100,9 @@ td#c1 {
 /* question from explore card chapter */
 
 /* Left side */
+.expandable-chapter-list-base {
+	background-color: var(--bg-color) !important;
+}
 .expandable-chapter-list-base .chapter-item .list-group {
 	padding: unset !important;
 }
