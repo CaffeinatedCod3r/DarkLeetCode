@@ -169,6 +169,11 @@
 .ace-github .ace_cursor {
 	color: var(--font-strong) !important;
 }
+
+/* Run code result */
+.css-i03q4h-ValueContainer {
+	background: unset !important;
+}
 /* gutter */
 .CodeMirror-gutters {
 	background-color: var(--bg-color) !important;
@@ -180,6 +185,13 @@
 
 /* Submission page */
 
+.container__nthg > div {
+	color: var(--font-medium) !important;
+}
+
+.info__2oQ9 .data__HC-i {
+	color: var(--font-highlight) !important;
+}
 .ant-table-thead > tr {
 	background-color: var(--bg-med2-color);
 }

@@ -6,6 +6,11 @@
 .css-10yicc7-Category.e5i1odf1 {
 	background-color: var(--bg-med2-color) !important;
 }
+
+.topic-container__1JMG {
+	background: unset !important;
+}
+
 .content__1Nro,
 #discuss-container {
 	background-color: var(--bg-color) !important;
