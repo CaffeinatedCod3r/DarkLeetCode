@@ -22,6 +22,12 @@
 	--btn-disabled: rgb(100, 100, 100);
 
 	--border: 1px solid rgb(128, 128, 128);
+
+	--gradient: linear-gradient(
+		to right,
+		rgba(67, 67, 67, 0.5),
+		rgba(0, 0, 0, 1)
+	);
 	/* temporary */
 	/* --dark-bg: rgb(30, 30, 30);
 	--med-bg: #000000;
@@ -232,3 +238,7 @@ h6 {
 .notification-item-container__sH-w::after {
 	background: var(--bg-med4-color) !important;
 }
+
+/* .notification-item__QZJ6 a, .notification-item__QZJ6 a:visited, .notification-item__QZJ6 a:focus{
+	colo
+} */

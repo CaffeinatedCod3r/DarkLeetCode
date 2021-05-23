@@ -56,6 +56,10 @@ a.list-group-item.chapter-list-item {
 	color: var(--font-strong) !important;
 }
 
+.chapter-list-base .description::after {
+	background: var(--gradient) !important;
+}
+
 /* clock  */
 td#c1 {
 	background-color: var(--bg-med2-color) !important;
@@ -108,6 +112,12 @@ td#c1 {
 .expandable-chapter-list-base .chapter-item .list-group {
 	padding: unset !important;
 }
+
+/* ellipsis gradient */
+.expandable-chapter-list-base .chapter-item .chapter .description::after {
+	background: var(--gradient) !important;
+}
+
 /* left side ends */
 
 .failed-to-complete-container {
