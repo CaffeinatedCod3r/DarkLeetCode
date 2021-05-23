@@ -129,3 +129,11 @@
 	color: var(--link-hover) !important;
 }
 /* Right Side tags ends*/
+
+/* Pagination */
+.reactable-previous-page,
+.reactable-next-page,
+.reactable-page-button:not(.reactable-current-page) {
+	background-color: var(--btn-dark) !important;
+	color: var(--font-medium) !important;
+}

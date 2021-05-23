@@ -17,8 +17,9 @@
 	--font-strong: rgb(255, 255, 255);
 	--font-highlight: rgb(82, 150, 200);
 
-	--btn-dark: #27292b;
-	--btn-dark-hover: #404346;
+	--btn-dark: rgb(55, 55, 55);
+	--btn-active: rgb(51, 122, 183);
+	--btn-dark-hover: rgb(70, 70, 70);
 	--btn-disabled: rgb(100, 100, 100);
 
 	--border: 1px solid rgb(128, 128, 128);

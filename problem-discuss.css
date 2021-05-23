@@ -65,6 +65,13 @@ label.css-92dq4s {
 	color: var(--link-strong) !important;
 }
 
+/* Tags */
+.css-g96614,
+.tag__2FfF {
+	background-color: var(--btn-dark) !important;
+	color: var(--font-medium) !important;
+}
+
 /* Right side tags container */
 .css-d08ysn-Container,
 .css-zywons-Container-RoundedTagFilter /* overall discuss page*/ {
@@ -86,6 +93,31 @@ label.css-92dq4s {
 	/* border-left: none; */
 }
 
+/* Pagination */
+.ant-pagination-item {
+	background-color: var(--bg-med4-color) !important;
+	color: var(--font-medium) !important;
+}
+
+.ant-pagination-item-active {
+	background-color: var(--btn-active) !important;
+	color: var(--font-highlight) !important;
+}
+
+li.ant-pagination-item a {
+	color: var(--font-medium) !important;
+}
+
+.ant-pagination-prev:not(.ant-pagination-disabled) a.ant-pagination-item-link,
+.ant-pagination-next:not(.ant-pagination-disabled) a.ant-pagination-item-link {
+	background-color: var(--bg-med4-color) !important;
+	color: var(--font-medium) !important;
+}
+
+.ant-pagination-disabled .ant-pagination-item-link {
+	background-color: var(--btn-disabled) !important;
+	color: var(--font-medium) !important;
+}
 /* borders */
 .border-wrapper__A-w9,
 .topic-item-wrap__2FSZ {
