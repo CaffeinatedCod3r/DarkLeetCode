@@ -55,6 +55,37 @@
 	--foreground: rgb(212, 212, 212); */
 }
 
+/* Loading screen */
+#initial-loading {
+	background-color: var(--bg-color) !important;
+}
+
+.loading-wrapper__1pmE {
+	background-color: var(--bg-med2-color) !important;
+}
+
+/* Sign In Page */
+.sign-in-page__3DVK .sign-in-wrapper__2SAX {
+	background-image: unset !important;
+	background-color: var(--bg-color) !important;
+}
+.sign-in-page__3DVK .sign-in-section__29XP .sign-in-box__1t5d {
+	background-color: var(--bg-med2-color) !important;
+}
+
+input.input__2o8B {
+	background-color: var(--form-input-bg) !important;
+}
+
+input.input__2o8B#id_login:-webkit-autofill,
+input.input__2o8B#id_login:not(:placeholder-shown),
+input.input__2o8B#id_login:-webkit-autofill:hover,
+input.input__2o8B#id_login:-webkit-autofill:focus,
+input.input__2o8B#id_login:-webkit-autofill:active {
+	background-color: var(--bg-med4-color) !important;
+	color: var(--font-strong) !important;
+}
+
 hr {
 	border-top: var(--border) !important;
 }
