@@ -18,11 +18,11 @@
 			"matches": ["https://leetcode.com/problemset/*"]
 		},
 		{
-			"css": ["problem-discuss.css"],
+			"css": ["problem-discuss.css", "hljs-theme.css"],
 			"matches": ["https://leetcode.com/discuss/*"]
 		},
 		{
-			"css": ["problem.css", "problem-discuss.css"],
+			"css": ["problem.css", "problem-discuss.css", "hljs-theme.css"],
 			"matches": ["https://leetcode.com/problems/*"]
 		},
 
