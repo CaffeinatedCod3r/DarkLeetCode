@@ -65,7 +65,9 @@ td#c1 {
 	color: var(--link-strong) !important;
 }
 
+/* Weekly section */
 .overview-tables-base .table-base,
+.overview-tables-base .overview-item-list-base.item-bg,
 .overview-tables-base .overview-item-list-base.item-bg-alt {
 	background-color: unset !important;
 }
