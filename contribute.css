@@ -1,0 +1,39 @@
+/* Contribution page */
+.content-wrapper {
+	background-color: var(--bg-med1-color) !important;
+}
+#footer-root {
+	background-color: var(--bg-med1-color) !important;
+}
+.contribute-landing-left-panel {
+	background-color: var(--bg-color) !important;
+}
+.contribute-landing-right-panel {
+	background-color: var(--bg-med1-color) !important;
+}
+
+/* Entering the background detail */
+.layout-shim {
+	background-color: unset !important;
+}
+.contribute-layout-body .contribute-layout-body-main {
+	background-color: unset !important;
+}
+.contribute-layout-body .contribute-layout-body-right {
+	background-color: unset !important;
+}
+.contribute-layout-footer .contribute-layout-footer-left {
+	background: rgb(40, 40, 40, 0.9) !important;
+}
+
+.layout-right-background {
+	background-color: unset !important;
+}
+.contribute-border-box {
+	background-color: unset !important;
+}
+
+/* Error alert box */
+.inner-content__3Pbg {
+	background-color: var(--bg-med2-color) !important;
+}

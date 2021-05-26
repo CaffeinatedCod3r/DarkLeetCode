@@ -43,7 +43,7 @@
 			"matches": ["https://leetcode.com/list/"]
 		},
 		{
-			"css": ["submission.css"],
+			"css": ["submission.css", "hljs-theme.css"],
 			"matches": [
 				"https://leetcode.com/submissions/*",
 				"https://leetcode.com/progress/*"
@@ -60,6 +60,10 @@
 		{
 			"css": ["subscription.css"],
 			"matches": ["https://leetcode.com/subscription/*"]
+		},
+		{
+			"css": ["contribute.css"],
+			"matches": ["https://leetcode.com/contribute/*"]
 		}
 	]
 }

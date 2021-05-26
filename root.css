@@ -117,6 +117,32 @@ body {
 	color: var(--font-strong) !important;
 }
 
+/* bell icon notification list */
+
+/* Settings icon */
+.notification-menu-container__3MW3 {
+	background-color: var(--bg-med1-color) !important;
+}
+
+/* list item */
+.ant-dropdown .notification-link__2RRJ {
+	background-color: var(--bg-med2-color) !important;
+}
+
+/* list item hover */
+.ant-dropdown .notification-link__2RRJ::after {
+	background: var(--bg-med4-color) !important;
+}
+
+.notification-item-container__sH-w {
+	color: var(--font-medium) !important;
+}
+
+/* Fix for white background when item contains link */
+.notification-item-container__sH-w::after {
+	background: var(--bg-med4-color) !important;
+}
+
 /* User icon list */
 .ant-dropdown-menu {
 	background-color: var(--bg-med1-color) !important;
@@ -239,38 +265,12 @@ h6 {
 	color: unset !important;
 }
 
+.react-calendar-heatmap .color-empty {
+	fill: #161b22 !important;
+}
+
 /* Daily check-in notification */
 .ant-notification-notice {
 	background-color: var(--bg-med3-color) !important;
 	color: var(--font-strong) !important;
 }
-
-/* bell icon notification list */
-
-/* Settings icon */
-.notification-menu-container__3MW3 {
-	background-color: var(--bg-med1-color) !important;
-}
-
-/* list item */
-.ant-dropdown .notification-link__2RRJ {
-	background-color: var(--bg-med2-color) !important;
-}
-
-/* list item hover */
-.ant-dropdown .notification-link__2RRJ::after {
-	background: var(--bg-med4-color) !important;
-}
-
-.notification-item-container__sH-w {
-	color: var(--font-medium) !important;
-}
-
-/* Fix for white background when item contains link */
-.notification-item-container__sH-w::after {
-	background: var(--bg-med4-color) !important;
-}
-
-/* .notification-item__QZJ6 a, .notification-item__QZJ6 a:visited, .notification-item__QZJ6 a:focus{
-	colo
-} */

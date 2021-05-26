@@ -1,3 +1,6 @@
+/* submission tab of a problem
+	shows the list of previously submitted attempt
+*/
 .table-striped > tbody > tr:nth-of-type(odd) {
 	background-color: var(--bg-med1-color) !important;
 }
@@ -17,4 +20,20 @@
 .pager li > span {
 	background-color: var(--btn-dark) !important;
 	color: var(--font-strong) !important;
+}
+
+/* submission detail page for this attempt
+	with visualization for time and space ranking
+*/
+#status {
+	background-color: unset !important;
+}
+.ace-tm {
+	background-color: var(--bg-color) !important;
+	color: var(--font-strong) !important;
+}
+
+.ace-tm .ace_gutter {
+	background-color: var(--bg-med2-color) !important;
+	color: var(--font-highlight) !important;
 }
