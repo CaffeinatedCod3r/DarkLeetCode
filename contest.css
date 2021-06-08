@@ -1,0 +1,13 @@
+.content-wrapper,
+html,
+body {
+	background: var(--bg-color) !important;
+}
+
+.contest-detail-base .callout {
+	background: unset !important;
+}
+
+.list-group-item {
+	background-color: var(--bg-med2-color) !important;
+}

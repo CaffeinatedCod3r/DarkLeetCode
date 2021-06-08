@@ -64,6 +64,10 @@
 		{
 			"css": ["contribute.css"],
 			"matches": ["https://leetcode.com/contribute/*"]
+		},
+		{
+			"css": ["contest.css"],
+			"matches": ["https://leetcode.com/contest/*"]
 		}
 	]
 }
