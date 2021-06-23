@@ -137,3 +137,73 @@
 	background-color: var(--btn-dark) !important;
 	color: var(--font-medium) !important;
 }
+
+/* New Layout changes */
+
+/* Navbar */
+nav {
+	background-color: var(--bg-med1-color) !important;
+}
+.text-label-1,
+.text-label-2,
+.text-label-3 {
+	color: var(--font-medium) !important;
+}
+
+.text-label-4 {
+	color: var(--font-light) !important;
+}
+
+/* expand button */
+span.bg-gradient-to-l {
+	background-image: linear-gradient(to left, #1c1c1c, rgb(50, 50, 50));
+}
+span.bg-paper {
+	background-color: var(--bg-med3-color) !important;
+}
+
+/* Problem table list */
+
+a > div {
+	background-color: var(--bg-med2-color) !important;
+}
+
+input {
+	background-color: var(--bg-med3-color) !important;
+	color: var(--font-medium) !important;
+}
+input::placeholder {
+	color: var(--font-light) !important;
+}
+
+.ant-table-thead > tr > th,
+.ant-table-thead th.ant-table-column-has-sorters {
+	color: var(--font-medium) !important;
+}
+.even\:bg-overlay-3:nth-child(2n) {
+	--tw-bg-opacity: 1;
+	background-color: var(--bg-med2-color) !important;
+	color: var(--font-medium) !important;
+}
+
+.odd\:bg-overlay-1:nth-child(odd) {
+	--tw-bg-opacity: 1;
+	background-color: var(--bg-med3-color) !important;
+	color: var(--font-medium) !important;
+}
+
+/* pagination */
+button.bg-paper {
+	background-color: var(--btn-dark) !important;
+}
+
+/* Right side cards */
+.bg-overlay-2,
+.bg-overlay-3,
+.bg-overlay-4 {
+	background-color: var(--bg-med2-color) !important;
+}
+
+footer {
+	background-color: var(--bg-med1-color) !important;
+}
