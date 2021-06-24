@@ -271,3 +271,19 @@ h6 {
 	background-color: var(--bg-med3-color) !important;
 	color: var(--font-strong) !important;
 }
+
+/* Updated problem ui list */
+div#headlessui-popover-panel-22 > div,
+div#headlessui-popover-panel-22 > div > div.bg-paper {
+	background-color: var(--bg-color) !important;
+}
+
+div#headlessui-popover-panel-22 > div > div.bg-paper > div:hover {
+	background-color: var(--bg-med2-color) !important;
+}
+
+/* Remove white line at top */
+div#headlessui-popover-panel-22 > div > div.bg-paper > div:hover > div.hidden {
+	height: 0px !important;
+	/* visibility: hidden !important; */
+}

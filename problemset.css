@@ -156,7 +156,7 @@ nav {
 
 /* expand button */
 span.bg-gradient-to-l {
-	background-image: linear-gradient(to left, #1c1c1c, rgb(50, 50, 50));
+	background-image: linear-gradient(to right, var(--bg-color), var(--bg-med3-color));
 }
 span.bg-paper {
 	background-color: var(--bg-med3-color) !important;

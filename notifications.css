@@ -1,0 +1,12 @@
+.notification-list-item.notification-list-unread-item {
+	background-color: var(--bg-med2-color) !important;
+}
+
+.notifications-container .notification-list-item .notification-action-btn-container .notification-content-action-btn {
+	background-color: var(--btn-dark) !important;
+	color: var(--link-hover) !important;
+}
+
+.notifications-container .notification-list-item .notification-action-btn-container .notification-content-action-btn:hover {
+	background-color: var(--btn-dark-hover) !important;
+}

@@ -25,7 +25,10 @@
 			"css": ["problem.css", "problem-discuss.css", "hljs-theme.css"],
 			"matches": ["https://leetcode.com/problems/*"]
 		},
-
+		{
+			"css": ["notifications.css"],
+			"matches": ["https://leetcode.com/notifications/*"]
+		},
 		{
 			"css": ["explore.css"],
 			"matches": ["https://leetcode.com/explore/*"]
@@ -44,10 +47,7 @@
 		},
 		{
 			"css": ["submission.css", "hljs-theme.css"],
-			"matches": [
-				"https://leetcode.com/submissions/*",
-				"https://leetcode.com/progress/*"
-			]
+			"matches": ["https://leetcode.com/submissions/*", "https://leetcode.com/progress/*"]
 		},
 		{
 			"css": ["session.css"],
