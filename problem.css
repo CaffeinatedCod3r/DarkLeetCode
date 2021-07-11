@@ -207,3 +207,32 @@
 	background-color: unset !important;
 	color: var(--font-medium) !important;
 }
+
+/* Modal opening when clicked on icons above editor */
+/* Shortcuts, last submitted, reset, settings */
+.ant-modal-content {
+	background-color: var(--bg-med1-color) !important;
+}
+
+.ant-modal-body {
+	color: var(--font-medium) !important;
+}
+
+.lc-modal__3L7G .lc-modal-with-title-header__ld4-,
+.lc-modal__3L7G .lc-modal-with-type__1EJ2 {
+	background: var(--bg-med3-color) !important;
+	color: var(--font-medium) !important;
+}
+
+.setting-title__1Oh8 {
+	color: var(--font-medium) !important;
+}
+
+.ant-select-light {
+	background-color: var(--bg-med2-color) !important;
+	color: var(--font-medium) !important;
+}
+
+.lc-modal-footer__3N1B {
+	background: unset !important;
+}

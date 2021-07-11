@@ -1,3 +1,6 @@
+.notification-list-item {
+	background-color: var(--bg-med3-color) !important;
+}
 .notification-list-item.notification-list-unread-item {
 	background-color: var(--bg-med2-color) !important;
 }

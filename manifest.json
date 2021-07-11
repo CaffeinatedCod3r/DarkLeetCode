@@ -68,6 +68,10 @@
 		{
 			"css": ["contest.css"],
 			"matches": ["https://leetcode.com/contest/*"]
+		},
+		{
+			"css": ["profile.css"],
+			"matches": ["https://leetcode.com/profile/*"]
 		}
 	]
 }
