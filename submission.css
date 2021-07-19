@@ -37,3 +37,20 @@
 	background-color: var(--bg-med2-color) !important;
 	color: var(--font-highlight) !important;
 }
+
+/* sample submission modal */
+.modal-content {
+	background-color: var(--bg-med2-color) !important;
+}
+
+.modal-content .close {
+	color: var(--font-strong) !important;
+}
+
+.modal-header {
+	border-bottom: unset !important;
+}
+.modal-content pre {
+	border: unset !important;
+	background-color: var(--bg-med2-color) !important;
+}

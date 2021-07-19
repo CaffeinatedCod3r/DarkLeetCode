@@ -4,6 +4,30 @@ body {
 	background: var(--bg-color) !important;
 }
 
+.contest-list-base {
+	background-color: var(--bg-med2-color) !important;
+}
+
+.contest-list-base .heading {
+	background-color: var(--bg-med2-color) !important;
+}
+
+.contest-table-base table.contest-table thead th {
+	background: unset !important;
+}
+
+.contest-table-base table.contest-table tbody.reactable-data .table-field.contest-title .title {
+	color: var(--font-light) !important;
+}
+
+.ranking-card-base .ranking-list-base {
+	background: var(--bg-med2-color) !important;
+}
+
+.ranking-card-base .ranking-list-item:hover {
+	background: var(--bg-med3-color) !important;
+}
+
 .contest-detail-base .callout {
 	background: unset !important;
 }
